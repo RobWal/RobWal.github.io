@@ -1,0 +1,27 @@
+.featured-image-link {
+  display: flex;
+}
+
+.featured-image {
+    /* width: 40vw;
+    height: 50vh; */
+    /* width: 30vw; */
+    /* min-width: 300px; */
+    /* max-width: 30vw; */
+    /* height: 30vh; */
+    /* min-height: 150px; */
+    /* max-height: 50vh; */
+    /* width: 90%; */
+    /* margin: 2vh 0 0 0; */
+    height: 28vh;
+    width: 28vw;
+}
+
+
+/* @media screen and (max-width: 1200px) {
+    .featured-image {
+      background-color: lightblue;
+      height: 28vw;
+      width: 50vw;
+    }
+} */

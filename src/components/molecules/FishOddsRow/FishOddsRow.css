@@ -1,0 +1,12 @@
+.fish-odds-row {
+    padding: 5px;
+    display: flex;
+    /* justify-content: ; */
+    flex-direction: row;
+    width: 80vw;
+}
+
+.fish-odds-row > p {
+    width: 170px;
+    text-align: center;
+}

@@ -1,0 +1,34 @@
+.social {
+    width: 5.1vmin;
+    height: 5.1vmin;
+    background-color: white;
+    margin: 1.2vmin;
+    border-radius: 1.5vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-link {
+    margin: 0;
+    padding: 0;
+    width: 3.6vmin;
+    height: 3.6vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-link-image {
+    /* position: relative; */
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    /* border-radius: 1.5vmin; */
+    transition: transform 0.5s;
+}
+
+.social-link-image:hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}

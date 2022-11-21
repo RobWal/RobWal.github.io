@@ -1,0 +1,24 @@
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content {
+  min-height: 71vh;
+}
+
+.body {
+  margin: 15px;
+  padding: 0;
+}
+
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}

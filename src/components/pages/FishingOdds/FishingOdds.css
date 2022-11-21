@@ -1,0 +1,14 @@
+.fishing-odds {
+    
+}
+
+.fishing-odds > p {
+    margin: 0 0 20px 50px;
+}
+
+.fishing-odds > button {
+    margin: 50px;
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+}

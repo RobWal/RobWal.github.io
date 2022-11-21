@@ -1,0 +1,11 @@
+.weather-selector {
+    margin: 50px;
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+}
+
+.weather-selector > button {
+    width: 100%;
+    height: 100%;
+}

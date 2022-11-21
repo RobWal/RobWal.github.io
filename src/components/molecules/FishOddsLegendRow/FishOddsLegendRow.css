@@ -1,0 +1,22 @@
+.fish-odds-legend-row {
+    padding: 5px;
+    display: flex;
+    /* justify-content: ; */
+    flex-direction: row;
+    width: 80vw;
+}
+
+.fish-odds-legend-row :hover {
+    cursor: pointer;
+}
+
+.fish-odds-legend-row > p {
+    width: 170px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.sort-tip {
+    display: block;
+}

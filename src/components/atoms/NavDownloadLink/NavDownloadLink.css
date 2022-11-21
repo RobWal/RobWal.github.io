@@ -1,0 +1,12 @@
+.nav-download-link {
+    color: black;
+    /* margin: 0 1.5vw 0 0; */
+    font-size: 1.8vmin;
+    transition: transform 0.5s;
+    backface-visibility: hidden;
+}
+
+.nav-download-link:hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
