@@ -52,8 +52,10 @@ const FishingOdds = () => {
             {/* <LocationSelector />
             <WeatherSelector />
             <TimeSelector /> */}
-            <WeatherSelector changeWeather={changeWeather}/>
+            {/* <WeatherSelector changeWeather={changeWeather}/> */}
+            {/* <WeatherSelector /> */}
             <LocationSelector changeLocation={changeLocation}/>
+            <WeatherSelector />
             <button>Time</button>
             <button>Fishing Skill</button>
             <button>Water Depth</button>

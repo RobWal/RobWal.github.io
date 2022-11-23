@@ -6,7 +6,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div  className="header">
-            <H1 text={"Stardew Valley Fishing"} />
+            <H1 text={"Stardew Valley Tools"} />
             <Navbar />
         </div>
     )

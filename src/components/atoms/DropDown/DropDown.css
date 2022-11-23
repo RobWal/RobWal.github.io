@@ -1,0 +1,25 @@
+.menu {
+    /* z-index: 2 !important; */
+    position: absolute;
+    /* display: ; */
+    /* left: 0; */
+    /* top: 0; */
+    /* background-color: black; */
+}
+
+.menu-item {
+    /* position: absolute; */
+    /* background-color: black; */
+}
+
+.location1 {
+    /* position: absolute; */
+    /* background-color: black; */
+    /* left: 150px; */
+}
+
+.location2 {
+    /* position: absolute; */
+    /* background-color: black; */
+    /* left: 250px; */
+}
