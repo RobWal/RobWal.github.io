@@ -1,12 +1,11 @@
 import './FishingOddsTable.css'
 import LocationFishDataParser, { FishInterface } from '../../pages/FishingOdds/LocationFishDataParser';
 import FishOddsRow from '../../molecules/FishOddsRow';
-import FishOddsLegendRow from '../../molecules/FishOddsLegendRow';
+import FishOddsLegendRow from '../../molecules/FishingOdds/FishOddsLegendRow';
 import { Children, useState } from 'react';
-import DropDown from '../../atoms/DropDown';
 import WeatherMenu from '../../atoms/WeatherMenu';
 import WeatherSelector from '../../atoms/WeatherSelector';
-import DropDownButton from '../../molecules/FishingOdds/DropDownButton';
+import DropDownButton from '../../atoms/FishingOdds/DropDownButton';
 import DropDownButtonChoice from '../../atoms/FishingOdds/DropDownButtonChoice';
 
 
@@ -25,8 +24,8 @@ const FishingOddsTable = (props: any) => {
         newMap.push(fish);
     });
     let originalOrder = JSON.parse(JSON.stringify(newMap));
-    console.log(props);
-    console.log(weather);
+    // console.log(props);
+    // console.log(weather);
     const whatever = () => {
         console.log('asdasd')
     };
@@ -77,14 +76,11 @@ const FishingOddsTable = (props: any) => {
     // menu={[<button className="location1" onClick={handleMenuOne}>Menu 1</button>,<button className="location2" onClick={handleMenuTwo}>Menu 2</button>]}/>
     return (
         <div className="fishing-odds-table">
-            <DropDownButton>
-                <DropDownButtonChoice text={'asdsasdasd'} children={<p>'sdfsfdsdf</p>}/>
-                <DropDownButtonChoice text={'asdsasdasd'} children={<p>asdasdasdsasadas</p>}/>
-                <DropDownButtonChoice text={'asdsasdasd'} children={<p>asdasdasdsasadas</p>}/>
-                {/* <DropDownButtonChoice text={'asd'} />
-                <DropDownButtonChoice text={'wasasd'} />
-                <DropDownButtonChoice text={'zzxxzasd'} /> */}
-                {/* <p>hello world</p> */}
+            <DropDownButton divKey={0}>
+                <DropDownButtonChoice divKey={0} text={'Season'} children={[<p key={0}>Spring</p>, <p key={1}>Summer</p>, <p key={2}>Fall</p>, <p key={3}>Winter</p>]}/>
+                <DropDownButtonChoice divKey={1} text={'Location'} children={[<p key={0}>asdasdasdsasadas</p>]}/>
+                <DropDownButtonChoice divKey={2} text={'Weather'} children={[<p key={0}>Rainy</p>, <p key={1}>Sunny</p>]}/>
+                <DropDownButtonChoice divKey={3} text={'Time'} children={[<p key={0}>asdasdasdsasadas</p>, <p key={1}>asdasdasdsasadas</p>]}/>
             </DropDownButton>
             {/* <WeatherSelector whatever={whatever}/> */}
             <FishOddsLegendRow handleSort={handleSort}/>
